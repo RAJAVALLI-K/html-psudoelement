@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PSEDU ELEMENT</title>
+        <style>
+            body {
+                text-align: center;
+                background-color: rgb(218, 214, 211);
+            }
+    
+            h1:hover {
+                color: rgb(29, 183, 189);
+            }
+            a.highlight:hover {
+                color: #ff0000;
+                font-size: 22px;
+            } 
+            P::selection{
+                color:deeppink;
+                background-color: rgb(209, 201, 191);
+            }
+
+            div {
+                background-color: green;
+                color: white;
+                padding: 25px;
+                text-align: center;
+            }
+
+            div:hover {
+                background-color: #bb4824;
+            }
+    
+            h3::first-letter {
+                color: #c71dab;
+                font-size: 30px;
+                font-weight: bold;
+            }
+            :root{
+                background-color:skyblue;
+            }    
+        </style>
+    </head>    
+    <body>
+        <h1>Pseudo-classes and HTML Classes</h1>
+
+        <p>It will change color and font size:</p>
+            
+        <p><a class="highlight" href="css_syntax.asp">CSS Syntax</a></p>
+                            
+        <p>Mouse over the div element below to change its background color:</p>
+
+        <div>Mouse Over Me</div>
+
+        <h4>Selection</h4>
+        
+        <p>Java is a general-purpose programming language that is class-based and object-oriented.</p>
+       
+        <h3>I am a strong person.</h3>
+    </body>    
+</html>
